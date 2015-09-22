@@ -1,0 +1,8 @@
+account_allow_edit = "super"
+account_default_url = "/account/login/index"
+account_redirect_login = "/blog/index"
+account_facebook_api_secret = ""
+account_facebook_api_appid = 1412194129017346
+account_auto_merge = 1
+account_logins[0] = "facebook"
+account_logins[1] = "email"

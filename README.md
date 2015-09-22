@@ -10,18 +10,22 @@ This says Ubuntu install (as this is the system I am currently working on), but 
 
 First clone the base system: 
 
-    git clone git://github.com/diversen/coscms.git yoursite
+    git clone git://github.com/diversen/phoneblogger.git yoursite
 
 Enter base system: 
 
     cd yoursite
+
+Update composer: 
+
+    composer update
 
 Enable apache2 host
 
     // you will need to be root
     sudo ./coscli.sh apache2 --en yoursite
 
-Ready to install. You will be asked about DB configuration.  Will ask you for version to install. Check out the `latest version` version or try `master` (tagged versions are tested and should work, while master will work 99% of the time work as well). After writing the `config/config.ini` file and install all profile's modules from git repos. At last system will prompt you for a super user. 
+Ready to install. You will be asked about DB configuration.  Will ask you for version to install. Check out the `latest version` version or try `master`. After writing the `config/config.ini` file the system will install all the profile's modules from git repos. At last the system will prompt you for a super user. 
 
     ./coscli.sh prompt-install --install
 

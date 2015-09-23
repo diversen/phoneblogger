@@ -33,18 +33,13 @@ blocks_top[0] = "/system/blocks/system_admin_menu_top.inc"
 google_translate_key = ""
 blocks_all = "blocks,blocks_top"
 domain = "default"
-captcha_image_module = 1
-captcha_image_chars = 4
 cached_assets = 1
 cached_assets_reload = 0
 cached_assets_compress = 1
 cached_assets_minify = 1
 media_width = 600
 debug = 1
+server_name = "phoneblogger.me"
+server_redirect = "phoneblogger.me"
 template = "zimpleza"
-[development]
-session_handler = ""
-hostname = "dennis-Rev-1-0:dennis-E122X:dennis-Lenovo-G500:dennis-Inspiron-531"
-url = "mysql:dbname=phoneblogger;host=localhost;charset=utf8"
-username = "root"
-server_name = 'phone-dev'
+
